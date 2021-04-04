@@ -1,57 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="form.css">
-    <title>Form</title>
-</head>
-<body>
-    <div id="h2-head">
-        <center><h2>Contact us</h2></center>
-    </div>
-    <br> 
-   <div id="container">
-
-  <span class="input">
-    <input type="text" class="input__field" id="input-1" />
-    <label for="input-1" class="input__label">
-      <span class="input__label-content">First Name</span>
-  </label>
-  </span>
-
-  <span class="input">
-    <input type="text" class="input__field" id="input-2"/>
-    <label for="input-2" class="input__label">
-      <span class="input__label-content">Last Name</span>
-    </label>
-  </span>
-
-  <span class="input">
-    <input type="text" class="input__field" id="input-3" />
-    <label for="input-3" class="input__label">
-      <span class="input__label-content">Phone Number</span>
-    </label>
-  </span>
-
-  <span class="input">
-    <input type="text" class="input__field" id="input-4" />
-    <label for="input-4" class="input__label">
-      <span class="input__label-content">Email Address</span>
-    </label>
-  </span>
-
-  <span class="input message">
-    <textarea class="input__field" id="input-5"></textarea>
-    <label for="input-5" class="input__label">
-      <span class="input__label-content">Message</span>
-    </label>
-  </span>
-
-  <button id="send-button" type="button">Send</button>
-
-</div>
-
-</body>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact</title>
+        <link rel="stylesheet" href="contact.css">
+    </head>
+    <body>
+      <div class="row">
+    <div class="col-md-12">
+      <form action="../thankyou/">
+        <h1>Pls submit details</h1>
+        <fieldset>
+            <label for="name">Name:</label>
+                <input type="text" id="name" >
+        
+            <label for="email">Email:</label>
+                <input type="email" id="mail">
+        
+            <label>Date of Birth:</label>
+                <input type="date" id="dob">
+            
+            <label>University:</label>
+                <input type="text" id="college">
+            
+            <label>USN:</label>
+                <input type="text" id="College-usn">
+        
+            <label>City</label>
+                <input type="text" id="city">
+        </fieldset>
+        <center>       
+             <button type="submit">Submit</button>
+        </center>
+       </form>
+        </div>
+      </div>
+    </body>
 </html>
