@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  color: #384047;
+  background: linear-gradient(to right, #1b1b1b 0%, #6b6b6b 100%);
+  font-family: 'Inconsolata', monospace;
+  font-size: large;
+}
+
+form {
+  max-width: 200px;
+  margin: 15px auto;
+  padding: 10px 20px;
+  background: #0a0a0a;
+  border-radius: 8px;
+  color: #FFF;
+  font-size: large;
+
+}
+
+h1 {
+  margin: 0 0 30px 0;
+  text-align: center;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="email"],
+
+textarea,
+select {
+  background: rgba(255,255,255,0.1);
+  border: none;
+  font-size: 16px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 9px;
+  width: 100%;
+  background-color: #e8eeef;
+  color: #050505;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  margin-bottom: 30px;
+  border-radius: 3%;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin: 0 3px 8px 0;
+}
+
+button {
+  padding: 12px 32px 12px 32px;
+  color: #FFF;
+  background-color: #4bc970;
+  font-size: 18px;
+  text-align: center;
+  font-style: normal;
+  border-radius: 5px;
+  width: 50%;
+  height: 100%;
+  border: 1px solid #077026;
+  border-width: 1px 1px 3px;
+  box-shadow: 0 -1px 0 rgba(82, 80, 80, 0.1) inset;
+  margin-bottom: 10px;
+}
+
+fieldset {
+  margin-bottom: 30px;
+  border: none;
+}
+
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+@media screen and (min-width: 480px) {
+
+  form {
+    max-width: 480px;
+  }
+
+}
