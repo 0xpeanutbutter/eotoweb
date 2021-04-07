@@ -3,6 +3,7 @@ body{
     color: rgb(13, 13, 14);
     padding-top: 50px;
     font-family: 'Inconsolata', monospace;
+    background: #757474;
     font-size: x-large;
     background-image: url('./src/bg.png');
     background-repeat: no-repeat;
@@ -24,10 +25,9 @@ p {
 
 button {
     padding: 12px 32px 12px 32px;
-    background: rgb(133, 207, 230);   
+    background: rgb(117, 210, 238);   
     margin: auto;
     font-size: large ;
-    font-family: Arial, Helvetica, sans-serif;
  }
 
  .button-submit{
@@ -44,11 +44,10 @@ button {
     max-width: 200px;
     margin: 15px auto;
     padding: 10px 20px;
-    background: #443f3f;
+    background: #2e2d2d;
     border-radius: 8px;
     color: #FFF;
-    font-size: large;
-  
+    font-size: x-large;
   }
   
   h1 {
@@ -94,10 +93,10 @@ button {
     margin-bottom: 8px;
   }
   
-  @media screen and (min-width: 480px) {
+  @media screen and (min-width: 380px) {
   
     form {
-      max-width: 480px;
+      max-width: 380px;
     }
   
   }
