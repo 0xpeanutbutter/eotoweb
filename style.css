@@ -1,12 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
 body{
-    color: aliceblue;
-    background: black;
-    padding: 5%;
+    color: rgb(13, 13, 14);
+    padding-top: 50px;
     font-family: 'Inconsolata', monospace;
-    background: linear-gradient(to right, #1b1b1b 0%, #6b6b6b 100%);
     font-size: x-large;
+    background-image: url('./src/bg.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-left: 5%;
+    padding-right: 5%;
 }
+
 h1 {
     text-align:center; 
     font-size: 40px;
@@ -40,7 +44,7 @@ button {
     max-width: 200px;
     margin: 15px auto;
     padding: 10px 20px;
-    background: #0a0a0a;
+    background: #443f3f;
     border-radius: 8px;
     color: #FFF;
     font-size: large;
@@ -97,4 +101,3 @@ button {
     }
   
   }
-  
